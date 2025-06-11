@@ -13,6 +13,10 @@ create or replace procedure BorrowBook (
     
 begin
     dbms_output.put_line('----- Start BorrowBook -----');
+
+
+    -- ToDo: need to check whether the data exist using count function!
+
     -- fetching book data
     select 
         *
